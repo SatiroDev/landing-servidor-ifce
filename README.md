@@ -27,7 +27,7 @@ landing-servidor-ifce/
 │    └── (imagens utilizadas no site)
 │
 └── docs/
-└── (currículo em PDF do servidor)
+     └── (currículo em PDF do servidor)
 
 ```
 
