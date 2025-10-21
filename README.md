@@ -9,6 +9,7 @@ O site apresenta informações sobre um servidor escolhido pela dupla, incluindo
 
 ## 🧩 Estrutura do Projeto
 
+```
 landing-servidor-ifce/
 │
 ├── index.html
@@ -27,6 +28,8 @@ landing-servidor-ifce/
 │
 └── docs/
 └── (currículo em PDF do servidor)
+
+```
 
 ---
 
