@@ -1,0 +1,115 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(82, 82, 82);
+}
+
+header {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 192.133vh;
+    height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid;
+    z-index: 2;
+}
+
+.nomeProfessora {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 28px;
+    font-size: large;
+}
+
+
+.links {
+    position: absolute;
+    margin-left: 125vh;
+    margin-top: 28px;
+}
+
+a {
+    color: rgb(95, 95, 95);
+}
+
+.inicio {
+    text-decoration: none;
+    position: absolute;
+    color: rgb(0, 102, 255);
+    font-size: medium;
+}
+
+
+.sobre {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 35px;
+    font-size: medium;
+}
+
+.formacao {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 70px;
+    font-size: medium;
+}
+
+.disciplinas {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 118px;
+    font-size: medium;
+}
+
+.contato {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 168px;
+    font-size: medium;
+}       
+
+.meioTela {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 82px;
+    width: 100%;
+    height: 47vw;
+    font-size: large;
+}
+
+.breveDescricao {
+    position: absolute;
+    width: 70vh;
+    margin-left: 145px;
+    margin-top: 150px;
+}
+
+.descricao {
+    color: rgb(75, 75, 75);
+}
+
+.imagem {
+    position: absolute;
+    margin-left: 100vh;
+}
+
+img {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    margin-top: 75px;
+    margin-left: 120px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.sombra {
+    background-color: rgb(0, 140, 255);
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transform: rotate(95deg);
+    border-radius: 25px;
+}
