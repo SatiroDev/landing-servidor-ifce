@@ -34,7 +34,6 @@ a {
 .inicio {
     text-decoration: none;
     position: absolute;
-    color: rgb(0, 102, 255);
     font-size: medium;
 }
 
@@ -43,6 +42,7 @@ a {
     text-decoration: none;
     position: absolute;
     margin-left: 35px;
+    color: rgb(0, 102, 255);
     font-size: medium;
 }
 
@@ -65,9 +65,9 @@ a {
     position: absolute;
     margin-left: 168px;
     font-size: medium;
-}       
+}      
 
-.meioTela {
+main {
     background-color: #FFF0F5;
     position: absolute;
     margin-top: 80px;
@@ -78,39 +78,88 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.breveDescricao {
+.sobreMain {
     position: absolute;
-    width: 70vh;
-    margin-left: 145px;
-    margin-top: 150px;
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 150px;
 }
 
-.descricao {
-    color: rgb(75, 75, 75);
+.userPin {
+    width: 25px;
+    position: absolute;
+    margin-top: 19px;
+    color: blue;
 }
 
-.imagem {
-    position: absolute;
-    margin-left: 100vh;
+.sobreP {
+    margin-left: 30px;
 }
 
-img {
+.areas {
+    color: rgb(194, 194, 194);
     position: absolute;
-    width: 340px;
-    height: 430px;
-    margin-top: 75px;
-    margin-left: 130px;
-    border-radius: 25px;
-    z-index: 1;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 450px;
+    height: 115px;
+    margin-left: 900px;
+    margin-top: 140px;
+    font-size: 15px;
 }
 
-.sombra {
-    background-color: rgb(212, 0, 255);
+.ia {
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    width: 155px;
+    margin-left: 20px;
+    color: black;
+}
+
+.vc {
     position: absolute;
-    width: 430px;
-    height: 350px;
-    margin-top: 120px;
-    margin-left: 85px;
-    transform: rotate(95deg);
-    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    width: 155px;
+    color: black;
+    margin-top: -35px;
+    margin-left: 185px;
+}
+.id {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    width: 130px;
+    color: black;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.hobbies {
+    color: rgb(194, 194, 194);
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    margin-left: 900px;
+    margin-top: 275px;
+}
+
+.areasInteresse {
+    margin-left: 20px;
+    color: black;
+}
+
+.parteHobbies {
+    margin-left: 20px;
+    color: black;
+}
+
+ul {
+    font-size: 15px;
+    color: gray;
 }
