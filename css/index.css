@@ -12,6 +12,12 @@ header {
     z-index: 2;
 }
 
+.chapeu {
+    width: 30px;
+    margin-top: -175px;
+    margin-left: 110px;
+}
+
 .nomeProfessora {
     color: white;
     position: absolute;
@@ -34,7 +40,7 @@ a {
 .inicio {
     text-decoration: none;
     position: absolute;
-    color: rgb(0, 102, 255);
+    color: rgb(255, 0, 149);
     font-size: medium;
 }
 
@@ -105,7 +111,7 @@ img {
 }
 
 .sombra {
-    background-color: rgb(212, 0, 255);
+    background-color: rgb(255, 0, 149);
     position: absolute;
     width: 430px;
     height: 350px;

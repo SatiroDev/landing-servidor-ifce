@@ -22,7 +22,7 @@ header {
     color: white;
     position: absolute;
     margin-left: 150px;
-    margin-top: -31px;
+    margin-top: 28px;
     font-size: large;
 }
 
@@ -30,7 +30,7 @@ header {
 .navegacao {
     position: absolute;
     margin-left: 125vh;
-    margin-top: -31px;
+    margin-top: 28px;
 }
 
 a {
@@ -48,7 +48,6 @@ a {
     text-decoration: none;
     position: absolute;
     margin-left: 35px;
-    color: rgb(255, 0, 149);
     font-size: medium;
 }
 
@@ -64,6 +63,7 @@ a {
     position: absolute;
     margin-left: 118px;
     font-size: medium;
+    color: rgb(255, 0, 149);
 }
 
 .contato {
@@ -71,7 +71,7 @@ a {
     position: absolute;
     margin-left: 168px;
     font-size: medium;
-}      
+}       
 
 main {
     background-color: #FFF0F5;
@@ -84,87 +84,104 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.sobreMain {
+img {
+    width: 40px;
     position: absolute;
-    width: 600px;
-    margin-top: 80px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.disciplinasMain {
+    position: absolute;
     margin-left: 150px;
+    margin-top: 10px;
+    
 }
 
-.userPin {
+.ip {
+    position: absolute;
+    width: 450px;
+    border: 1px solid;
+    color: rgb(194, 194, 194);
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 260px;
+}
+
+.el {
+    position: absolute;
+    width: 450px;
+    color: rgb(194, 194, 194);
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 570px;
+    margin-top: 80px;
+    height: 260px;
+}
+
+.se {
+    position: absolute;
+    width: 450px;
+    color: rgb(194, 194, 194);
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 1040px;
+    margin-top: 80px;
+    height: 260px;
+}
+
+.tituloDisciplina {
+    color: black;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.descricaoDisciplinas {
+    margin-left: 23px;
+    color: rgb(133, 133, 133);
+    width: 400px;
+}
+
+.cargaHoraria {
+    border: 1px solid;
+    width: 35px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 22px;
+    border-color: rgb(194, 194, 194);
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+}
+
+.praticaTeorica {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    border-color: rgb(194, 194, 194);
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: 65px;
+}
+
+.iconeIp {
     width: 25px;
-    position: absolute;
-    margin-top: 19px;
+    margin-top: -50px;
+    margin-left: 250px;
 }
 
-.sobreP {
-    margin-left: 30px;
+.iconeEl {
+    width: 23px;
+    margin-top: -50px;
+    margin-left: 120px;
 }
 
-.areas {
-    color: rgb(194, 194, 194);
-    position: absolute;
-    border: 1px solid;
-    border-radius: 10px;
-    width: 450px;
-    height: 115px;
-    margin-left: 900px;
-    margin-top: 140px;
-    font-size: 15px;
-}
-
-.ia {
-    text-align: center;
-    background-color: rgb(206, 206, 206);
-    border-radius: 5px;
-    width: 155px;
-    margin-left: 20px;
-    color: black;
-}
-
-.vc {
-    position: absolute;
-    text-align: center;
-    background-color: rgb(206, 206, 206);
-    border-radius: 5px;
-    width: 155px;
-    color: black;
-    margin-top: -35px;
-    margin-left: 185px;
-}
-.id {
-    position: absolute;
-    text-align: center;
-    background-color: rgb(206, 206, 206);
-    border-radius: 5px;
-    width: 130px;
-    color: black;
-    margin-top: -5px;
-    margin-left: 20px;
-}
-
-.hobbies {
-    color: rgb(194, 194, 194);
-    position: absolute;
-    border: 1px solid;
-    border-radius: 10px;
-    width: 450px;
-    height: 200px;
-    margin-left: 900px;
-    margin-top: 275px;
-}
-
-.areasInteresse {
-    margin-left: 20px;
-    color: black;
-}
-
-.parteHobbies {
-    margin-left: 20px;
-    color: black;
-}
-
-ul {
-    font-size: 15px;
-    color: gray;
+.iconeSe {
+    width: 25px;
+    margin-top: -50px;
+    margin-left: 220px;
 }
