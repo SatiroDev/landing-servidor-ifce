@@ -5,11 +5,21 @@ body {
 
 header {
     position: fixed;
-    background: linear-gradient(to right, #009F6B,  #00d18b);
     width: 194vh;
     height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 2;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: pink;
+}
+
+.telaDeFundo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
 
 .chapeu {
@@ -70,11 +80,10 @@ a {
 }       
 
 .meioTela {
-    background-color: #FFF0F5;
     position: absolute;
     margin-top: 80px;
-    width: 192.133vh;
-    height: 44.1vw;
+    width: 99.62vw;
+    height: 84.6vh;
     font-size: large;
     padding-top: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -166,11 +175,3 @@ a {
     transform: rotate(95deg);
     border-radius: 25px;
 }
-
-/* .onda {
-    position:fixed;
-    width: 500px;
-    height: 750px;
-    margin-left: 1226px;
-    margin-top: 250px;
-} */

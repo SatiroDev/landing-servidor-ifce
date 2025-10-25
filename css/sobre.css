@@ -5,11 +5,21 @@ body {
 
 header {
     position: fixed;
-    background: linear-gradient(to right, #009F6B,  #00d18b);
     width: 194vh;
     height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 2;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: pink;
+}
+
+.telaDeFundo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
 
 .chapeu {
@@ -35,50 +45,45 @@ header {
 
 a {
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .inicio {
-    text-decoration: none;
     position: absolute;
     font-size: medium;
 }
 
 
 .sobre {
-    text-decoration: none;
     position: absolute;
     margin-left: 35px;
-    color: rgb(255, 0, 149);
     font-size: medium;
+    color: rgb(255, 0, 149);
 }
 
 .formacao {
-    text-decoration: none;
     position: absolute;
     margin-left: 70px;
     font-size: medium;
 }
 
 .disciplinas {
-    text-decoration: none;
     position: absolute;
     margin-left: 118px;
     font-size: medium;
 }
 
 .contato {
-    text-decoration: none;
     position: absolute;
     margin-left: 168px;
     font-size: medium;
-}      
+}
 
 main {
-    background-color: #FFF0F5;
     position: absolute;
     margin-top: 80px;
-    width: 192.133vh;
-    height: 44.1vw;
+    width: 99.62vw;
+    height: 84.6vh;
     font-size: large;
     padding-top: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -167,4 +172,8 @@ main {
 ul {
     font-size: 15px;
     color: gray;
+}
+
+.sobreP {
+    color: #FFF5E1;
 }

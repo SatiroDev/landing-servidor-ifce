@@ -5,11 +5,21 @@ body {
 
 header {
     position: fixed;
-    background: linear-gradient(to right, #009F6B,  #00d18b);
     width: 194vh;
     height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 2;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: pink;
+}
+
+.telaDeFundo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
 
 .chapeu {
@@ -22,7 +32,7 @@ header {
     color: white;
     position: absolute;
     margin-left: 150px;
-    margin-top: 28px;
+    margin-top: -31px;
     font-size: large;
 }
 
@@ -30,37 +40,33 @@ header {
 .navegacao {
     position: absolute;
     margin-left: 125vh;
-    margin-top: 28px;
-
+    margin-top: -31px;
 }
 
 a {
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .inicio {
-    text-decoration: none;
     position: absolute;
     font-size: medium;
 }
 
 
 .sobre {
-    text-decoration: none;
     position: absolute;
     margin-left: 35px;
     font-size: medium;
 }
 
 .formacao {
-    text-decoration: none;
     position: absolute;
     margin-left: 70px;
     font-size: medium;
 }
 
 .disciplinas {
-    text-decoration: none;
     position: absolute;
     margin-left: 118px;
     font-size: medium;
@@ -68,24 +74,22 @@ a {
 }
 
 .contato {
-    text-decoration: none;
     position: absolute;
     margin-left: 168px;
     font-size: medium;
-}       
+}
 
 main {
-    background-color: #FFF0F5;
     position: absolute;
     margin-top: 80px;
-    width: 192.133vh;
-    height: 44.1vw;
+    width: 99.62vw;
+    height: 84.6vh;
     font-size: large;
     padding-top: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
+.livro {
     width: 40px;
     position: absolute;
     margin-top: 5px;
@@ -96,14 +100,14 @@ img {
     position: absolute;
     margin-left: 150px;
     margin-top: 10px;
-    
+    color: #FFF5E1;
 }
 
 .ip {
     position: absolute;
     width: 450px;
     border: 1px solid;
-    color: rgb(194, 194, 194);
+    color: #9bffde;
     border-radius: 10px;
     margin-top: 80px;
     margin-left: 100px;
@@ -114,7 +118,7 @@ img {
 .el {
     position: absolute;
     width: 450px;
-    color: rgb(194, 194, 194);
+    color: #9bffde;
     border: 1px solid;
     border-radius: 10px;
     margin-left: 570px;
@@ -126,7 +130,7 @@ img {
 .se {
     position: absolute;
     width: 450px;
-    color: rgb(194, 194, 194);
+    color: #9bffde;
     border: 1px solid;
     border-radius: 10px;
     margin-left: 1040px;
@@ -136,14 +140,14 @@ img {
 }
 
 .tituloDisciplina {
-    color: black;
+    color: #FFF5E1;
     padding: 10px;
     margin-left: 15px;
 }
 
 .descricaoDisciplinas {
     margin-left: 23px;
-    color: rgb(133, 133, 133);
+    color: #F5EBDD;
     width: 400px;
 }
 
@@ -154,8 +158,8 @@ img {
     font-size: 12px;
     border-radius: 5px;
     margin-left: 22px;
-    border-color: rgb(194, 194, 194);
-    color: rgb(31, 31, 31);
+    border-color: #9bffde;
+    color: #F5EBDD;
     font-weight: bold;
 }
 
@@ -165,27 +169,30 @@ img {
     width: 110px;
     text-align: center;
     font-size: 12px;
-    border-color: rgb(194, 194, 194);
-    color: rgb(31, 31, 31);
+    border-color: #9bffde;
+    color: #F5EBDD;
     font-weight: bold;
     margin-top: -30px;
     margin-left: 65px;
 }
 
 .iconeIp {
+    position: absolute;
     width: 25px;
     margin-top: -50px;
     margin-left: 250px;
 }
 
 .iconeEl {
-    width: 23px;
-    margin-top: -50px;
-    margin-left: 120px;
+    position: absolute;
+    width: 30px;
+    margin-top: -54px;
+    margin-left: 190px;
 }
 
 .iconeSe {
+    position: absolute;
     width: 25px;
-    margin-top: -50px;
+    margin-top: -52px;
     margin-left: 220px;
 }
