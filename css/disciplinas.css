@@ -31,6 +31,7 @@ header {
     position: absolute;
     margin-left: 125vh;
     margin-top: 28px;
+
 }
 
 a {
@@ -107,6 +108,7 @@ img {
     margin-top: 80px;
     margin-left: 100px;
     height: 260px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
 }
 
 .el {
@@ -118,6 +120,7 @@ img {
     margin-left: 570px;
     margin-top: 80px;
     height: 260px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
 }
 
 .se {
@@ -129,6 +132,7 @@ img {
     margin-left: 1040px;
     margin-top: 80px;
     height: 260px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
 }
 
 .tituloDisciplina {
