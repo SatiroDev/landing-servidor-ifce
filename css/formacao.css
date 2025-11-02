@@ -1,0 +1,238 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    width: 194vh;
+    height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: pink;
+}
+
+.chapeu {
+    width: 30px;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.nomeProfessora {
+    color: white;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -31px;
+    font-size: large;
+}
+.telaDeFundo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.navegacao {
+    position: absolute;
+    margin-left: 125vh;
+    margin-top: -31px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.inicio {
+    text-decoration: none;
+    position: absolute;
+    font-size: medium;
+}
+
+
+.sobre {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 35px;
+    font-size: medium;
+}
+
+.formacao {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 70px;
+    font-size: medium;
+    color: rgb(255, 0, 149);
+}
+
+.disciplinas {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 118px;
+    font-size: medium;
+}
+
+.contato {
+    text-decoration: none;
+    position: absolute;
+    margin-left: 168px;
+    font-size: medium;
+    
+}
+main{
+    position: absolute;
+    margin-top: 64px;
+    width: 95%;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.formacao1{
+    position: absolute;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.primeiroretangulo{
+    position: absolute;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 70px;
+    margin-left: 10px;
+    border:  1px solid #9bffde;
+    border-radius: 15px;
+    width: 550px;
+    height: 130px;
+    color: white;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
+}
+.segundoretangulo{
+    position: absolute;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 247px;
+    margin-left: 10px;
+    border:  1px solid #9bffde;
+    border-radius: 15px;
+    width: 550px;
+    height: 130px;
+    color: white;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
+}
+.terceiroretangulo{
+    position: absolute;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 435px;
+    margin-left: 10px;
+    width: 550px;
+    height: 130px;
+    border:  1px solid #9bffde;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
+}
+.doutorado{
+    position: absolute;
+}
+.universidadedoutorado{
+    position: absolute;
+    margin-top: 48px;
+}
+.professordoutorado{
+    position: absolute;
+    margin-top: 80px;
+}
+.datadoutorado{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 450px;
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.mestrado{
+    position: absolute;
+}
+.universidademestrado{
+    position: absolute;
+    margin-top: 48px;
+}
+.professormestrado{
+    position: absolute;
+    margin-top: 80px;
+}
+.datamestrado{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 450px;
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.bacharelado{
+    position: absolute;
+}
+.universidadebacharelado{
+    position: absolute;
+    margin-top: 48px;
+}
+.professorbacharelado{
+    position: absolute;
+    margin-top: 80px;
+}
+.databacharelado{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 450px;
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cursos{
+    position: absolute;
+    margin-left: 800px;
+    font-size: 20px;
+    color: white;
+}
+.primeira{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 802px;
+    border:  1px solid #9bffde;
+    width: 400px;
+    height: 130px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
+}
+.localprimeira{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 23px;
+}
+.segundo{
+    position: absolute;
+    border:  1px solid #9bffde;
+    margin-top: 247px;
+    margin-left: 802px;
+    border-radius: 15px;
+    width: 400px;
+    height: 130px;
+    color: white;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
+}
+.localsegunda{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 23px;
+}

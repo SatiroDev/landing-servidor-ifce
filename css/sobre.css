@@ -116,11 +116,12 @@ main {
     margin-left: 900px;
     margin-top: 140px;
     font-size: 15px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
 }
 
 .ia {
     text-align: center;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(200, 231, 194);
     border-radius: 5px;
     width: 155px;
     margin-left: 20px;
@@ -130,7 +131,7 @@ main {
 .vc {
     position: absolute;
     text-align: center;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(200, 231, 194);
     border-radius: 5px;
     width: 155px;
     color: black;
@@ -140,12 +141,22 @@ main {
 .id {
     position: absolute;
     text-align: center;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(200, 231, 194);
     border-radius: 5px;
     width: 130px;
     color: black;
     margin-top: -5px;
     margin-left: 20px;
+}
+.cg {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(200, 231, 194);
+    border-radius: 5px;
+    width: 130px;
+    color: black;
+    margin-top: -5px;
+    margin-left: 160px;
 }
 
 .hobbies {
@@ -157,11 +168,13 @@ main {
     height: 200px;
     margin-left: 900px;
     margin-top: 275px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
 }
 
 .areasInteresse {
     margin-left: 20px;
     color: black;
+    font-size: 16px;
 }
 
 .parteHobbies {
@@ -171,7 +184,7 @@ main {
 
 ul {
     font-size: 15px;
-    color: gray;
+    color: rgb(54, 54, 54);
 }
 
 .sobreP {
