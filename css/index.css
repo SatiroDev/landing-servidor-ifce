@@ -163,15 +163,5 @@ a {
     margin-left: 130px;
     border-radius: 25px;
     z-index: 1;
-}
-
-.sombra {
-    background-color: rgb(255, 0, 149);
-    position: absolute;
-    width: 470px;
-    height: 350px;
-    margin-top: 130px;
-    margin-left: 65px;
-    transform: rotate(95deg);
-    border-radius: 25px;
+    box-shadow: 15px 15px 5px 5px rgba(255, 0, 221, 1);
 }
