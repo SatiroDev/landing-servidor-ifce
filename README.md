@@ -21,7 +21,11 @@ landing-servidor-ifce/
 │    └── contato.html
 │
 ├── css/
-│    └── style.css
+│     ├── contato.css
+│     ├── disciplinas.css
+│     ├── formacao.css
+│     ├── index.css 
+│     └── sobre.css
 │
 ├── img/
 │    └── (imagens utilizadas no site)
