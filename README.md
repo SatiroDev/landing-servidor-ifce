@@ -96,7 +96,7 @@ Regras de estilização exigidas:
 
 ## 👩‍💻 Autores
 Projeto desenvolvido por:  
-**José Satiro** e **Luís Wagner**  
+[José Satiro](https://github.com/SatiroDev) e [Luis Wagner](https://github.com/colarin)  
 Curso: Técnico em Informática — IFCE Campus Maranguape  
 Disciplina: Desenvolvimento Web I  
 Professor: **Thomaz Maia**
