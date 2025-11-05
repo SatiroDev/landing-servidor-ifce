@@ -209,14 +209,22 @@ input {
     width: 97%;
     border: 1px solid #ccc;
 }
-select, textarea {
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-}
+} 
 
 .botao_enviar {
     width: 100%;
