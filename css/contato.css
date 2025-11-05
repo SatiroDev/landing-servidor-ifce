@@ -189,25 +189,41 @@ main {
     margin-top: 25px;
     color: blue;
 }
-table{
+
+form {
     position: absolute;
-    width: 700px;
-    height: 280px;
-    border-collapse:collapse;
-    color: #ff69b4;
-    margin-left: 850px;
-    margin-top: 35px;
-    box-shadow: 0 7px 12px rgba(0,0,0,0.2);
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: white;
+    right: 5%;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
 }
 
-td {
-    text-align: center;
-    
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-.coresfontetabela{
-    color: black;
-    width: 100px;
+
+input {
+    width: 97%;
+    border: 1px solid #ccc;
+}
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botao_enviar {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to left, #009F6B,  #00d18b);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

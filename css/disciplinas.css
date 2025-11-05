@@ -196,3 +196,26 @@ main {
     margin-top: -52px;
     margin-left: 220px;
 }
+
+table{
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    border-collapse:collapse;
+    color: rgb(255, 0, 149);
+    margin-left: 450px;
+    margin-top: 360px;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.4);
+    border-radius: 8px;
+
+    border-color: #9bffde;
+}
+
+td {
+    text-align: center;
+    
+}
+.coresfontetabela{
+    color: rgb(255, 255, 255);
+    width: 100px;
+}
